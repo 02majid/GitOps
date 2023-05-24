@@ -1,5 +1,5 @@
 # Use the official Nginx base image
-FROM nginx:perl
+FROM nginx:stable-bullseye
 
 # Copy custom HTML file with custom message
 COPY custom_message.html /var/www/html/
